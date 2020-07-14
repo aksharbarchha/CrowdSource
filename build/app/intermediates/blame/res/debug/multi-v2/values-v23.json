@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Internships\\Crop Disease Detection\\App\\crop_doc\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\rajan\\.gradle\\caches\\transforms-2\\files-2.1\\b7ad54e771368ca24d3174aacc4a59c6\\appcompat-1.1.0-alpha01\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,19,32,33,34,38,39,40,41",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1277,2079,2206,2311,2535,2650,2757,2870",
+                        "endLines": "2,3,4,5,18,31,32,33,37,38,39,40,44",
+                        "endColumns": "134,134,74,86,12,12,126,104,12,114,106,112,12",
+                        "endOffsets": "185,320,395,482,1272,2074,2201,2306,2530,2645,2752,2865,3095"
+                    }
+                }
+            ]
+        }
+    ]
+}

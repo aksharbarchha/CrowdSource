@@ -1,0 +1,318 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.alphadevs.crowd"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\Internships\Crop Disease Detection\App\crop_doc\android\app\src\main\AndroidManifest.xml:8:5-66
+14-->D:\Internships\Crop Disease Detection\App\crop_doc\android\app\src\main\AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->D:\Internships\Crop Disease Detection\App\crop_doc\android\app\src\main\AndroidManifest.xml:9:5-81
+15-->D:\Internships\Crop Disease Detection\App\crop_doc\android\app\src\main\AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->D:\Internships\Crop Disease Detection\App\crop_doc\android\app\src\main\AndroidManifest.xml:10:5-79
+16-->D:\Internships\Crop Disease Detection\App\crop_doc\android\app\src\main\AndroidManifest.xml:10:22-77
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->[:wifi] D:\Internships\Crop Disease Detection\App\crop_doc\build\wifi\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
+17-->[:wifi] D:\Internships\Crop Disease Detection\App\crop_doc\build\wifi\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[:wifi] D:\Internships\Crop Disease Detection\App\crop_doc\build\wifi\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-79
+18-->[:wifi] D:\Internships\Crop Disease Detection\App\crop_doc\build\wifi\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-76
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->[:wifi] D:\Internships\Crop Disease Detection\App\crop_doc\build\wifi\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-76
+19-->[:wifi] D:\Internships\Crop Disease Detection\App\crop_doc\build\wifi\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-73
+20    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+20-->[:wifi] D:\Internships\Crop Disease Detection\App\crop_doc\build\wifi\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-79
+20-->[:wifi] D:\Internships\Crop Disease Detection\App\crop_doc\build\wifi\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-76
+21    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+21-->[:wifi] D:\Internships\Crop Disease Detection\App\crop_doc\build\wifi\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-76
+21-->[:wifi] D:\Internships\Crop Disease Detection\App\crop_doc\build\wifi\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-73
+22    <uses-permission android:name="android.permission.WAKE_LOCK" />
+22-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:25:5-68
+22-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:25:22-65
+23    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+23-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:26:5-110
+23-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:26:22-107
+24    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+24-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:26:5-82
+24-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:26:22-79
+25
+26    <application
+26-->D:\Internships\Crop Disease Detection\App\crop_doc\android\app\src\main\AndroidManifest.xml:11:5-50:19
+27        android:name="io.flutter.app.FlutterApplication"
+27-->D:\Internships\Crop Disease Detection\App\crop_doc\android\app\src\main\AndroidManifest.xml:12:9-57
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.1.0] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\3aaf6e5219b7f981ec263df919098c6f\core-1.1.0\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->D:\Internships\Crop Disease Detection\App\crop_doc\android\app\src\main\AndroidManifest.xml:14:9-43
+31        android:label="CrowdSource" >
+31-->D:\Internships\Crop Disease Detection\App\crop_doc\android\app\src\main\AndroidManifest.xml:13:9-36
+32        <activity
+32-->D:\Internships\Crop Disease Detection\App\crop_doc\android\app\src\main\AndroidManifest.xml:16:9-44:20
+33            android:name="com.example.crop_doc.MainActivity"
+33-->D:\Internships\Crop Disease Detection\App\crop_doc\android\app\src\main\AndroidManifest.xml:17:13-41
+34            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+34-->D:\Internships\Crop Disease Detection\App\crop_doc\android\app\src\main\AndroidManifest.xml:20:13-163
+35            android:hardwareAccelerated="true"
+35-->D:\Internships\Crop Disease Detection\App\crop_doc\android\app\src\main\AndroidManifest.xml:21:13-47
+36            android:launchMode="singleTop"
+36-->D:\Internships\Crop Disease Detection\App\crop_doc\android\app\src\main\AndroidManifest.xml:18:13-43
+37            android:theme="@style/LaunchTheme"
+37-->D:\Internships\Crop Disease Detection\App\crop_doc\android\app\src\main\AndroidManifest.xml:19:13-47
+38            android:windowSoftInputMode="adjustResize" >
+38-->D:\Internships\Crop Disease Detection\App\crop_doc\android\app\src\main\AndroidManifest.xml:22:13-55
+39
+40            <!--
+41                 Specifies an Android theme to apply to this Activity as soon as
+42                 the Android process has started. This theme is visible to the user
+43                 while the Flutter UI initializes. After that, this theme continues
+44                 to determine the Window background behind the Flutter UI.
+45            -->
+46            <meta-data
+46-->D:\Internships\Crop Disease Detection\App\crop_doc\android\app\src\main\AndroidManifest.xml:27:13-30:17
+47                android:name="io.flutter.embedding.android.NormalTheme"
+47-->D:\Internships\Crop Disease Detection\App\crop_doc\android\app\src\main\AndroidManifest.xml:28:15-70
+48                android:resource="@style/NormalTheme" />
+48-->D:\Internships\Crop Disease Detection\App\crop_doc\android\app\src\main\AndroidManifest.xml:29:15-52
+49            <!--
+50                 Displays an Android View that continues showing the launch screen
+51                 Drawable until Flutter paints its first frame, then this splash
+52                 screen fades out. A splash screen is useful to avoid any visual
+53                 gap between the end of Android's launch screen and the painting of
+54                 Flutter's first frame.
+55            -->
+56            <meta-data
+56-->D:\Internships\Crop Disease Detection\App\crop_doc\android\app\src\main\AndroidManifest.xml:36:13-39:17
+57                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+57-->D:\Internships\Crop Disease Detection\App\crop_doc\android\app\src\main\AndroidManifest.xml:37:15-79
+58                android:resource="@drawable/launch_background" />
+58-->D:\Internships\Crop Disease Detection\App\crop_doc\android\app\src\main\AndroidManifest.xml:38:15-61
+59
+60            <intent-filter>
+60-->D:\Internships\Crop Disease Detection\App\crop_doc\android\app\src\main\AndroidManifest.xml:40:13-43:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->D:\Internships\Crop Disease Detection\App\crop_doc\android\app\src\main\AndroidManifest.xml:41:17-68
+61-->D:\Internships\Crop Disease Detection\App\crop_doc\android\app\src\main\AndroidManifest.xml:41:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->D:\Internships\Crop Disease Detection\App\crop_doc\android\app\src\main\AndroidManifest.xml:42:17-76
+63-->D:\Internships\Crop Disease Detection\App\crop_doc\android\app\src\main\AndroidManifest.xml:42:27-74
+64            </intent-filter>
+65        </activity>
+66        <!--
+67             Don't delete the meta-data below.
+68             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+69        -->
+70        <meta-data
+70-->D:\Internships\Crop Disease Detection\App\crop_doc\android\app\src\main\AndroidManifest.xml:47:9-49:33
+71            android:name="flutterEmbedding"
+71-->D:\Internships\Crop Disease Detection\App\crop_doc\android\app\src\main\AndroidManifest.xml:48:13-44
+72            android:value="2" />
+72-->D:\Internships\Crop Disease Detection\App\crop_doc\android\app\src\main\AndroidManifest.xml:49:13-30
+73
+74        <service
+74-->[:firebase_storage] D:\Internships\Crop Disease Detection\App\crop_doc\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+75            android:name="com.google.firebase.components.ComponentDiscoveryService"
+75-->[:firebase_storage] D:\Internships\Crop Disease Detection\App\crop_doc\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+76            android:directBootAware="true"
+76-->[com.google.firebase:firebase-common:19.3.0] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\6366790a8f74f379a2dc41ebbff7d5e3\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+77            android:exported="false" >
+77-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\ca912bff2260618b5b638fe661521702\play-services-measurement-api-17.2.2\AndroidManifest.xml:29:13-37
+78            <meta-data
+78-->[:firebase_storage] D:\Internships\Crop Disease Detection\App\crop_doc\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+79                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+79-->[:firebase_storage] D:\Internships\Crop Disease Detection\App\crop_doc\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[:firebase_storage] D:\Internships\Crop Disease Detection\App\crop_doc\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+81            <meta-data
+81-->[:cloud_firestore] D:\Internships\Crop Disease Detection\App\crop_doc\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+82                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
+82-->[:cloud_firestore] D:\Internships\Crop Disease Detection\App\crop_doc\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-133
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[:cloud_firestore] D:\Internships\Crop Disease Detection\App\crop_doc\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+84            <meta-data
+84-->[:firebase_auth] D:\Internships\Crop Disease Detection\App\crop_doc\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+85                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+85-->[:firebase_auth] D:\Internships\Crop Disease Detection\App\crop_doc\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-122
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[:firebase_auth] D:\Internships\Crop Disease Detection\App\crop_doc\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+87            <meta-data
+87-->[:firebase_core] D:\Internships\Crop Disease Detection\App\crop_doc\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+88                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+88-->[:firebase_core] D:\Internships\Crop Disease Detection\App\crop_doc\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-123
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[:firebase_core] D:\Internships\Crop Disease Detection\App\crop_doc\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+90            <meta-data
+90-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\ca912bff2260618b5b638fe661521702\play-services-measurement-api-17.2.2\AndroidManifest.xml:30:13-32:85
+91                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+91-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\ca912bff2260618b5b638fe661521702\play-services-measurement-api-17.2.2\AndroidManifest.xml:31:17-139
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\ca912bff2260618b5b638fe661521702\play-services-measurement-api-17.2.2\AndroidManifest.xml:32:17-82
+93            <meta-data
+93-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\c4fb8e8f0279951b52a55029f15654d3\jetified-firebase-storage-17.0.0\AndroidManifest.xml:31:13-33:85
+94                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+94-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\c4fb8e8f0279951b52a55029f15654d3\jetified-firebase-storage-17.0.0\AndroidManifest.xml:32:17-107
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\c4fb8e8f0279951b52a55029f15654d3\jetified-firebase-storage-17.0.0\AndroidManifest.xml:33:17-82
+96            <meta-data
+96-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\6b82a10b80e8ed7c271ad34e8dc1ded4\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:20:13-22:85
+97                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+97-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\6b82a10b80e8ed7c271ad34e8dc1ded4\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:21:17-111
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\6b82a10b80e8ed7c271ad34e8dc1ded4\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:22:17-82
+99            <meta-data
+99-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\cdcbe5b8848db844a112a398c74ff9bf\jetified-firebase-auth-17.0.0\AndroidManifest.xml:36:13-38:85
+100                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+100-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\cdcbe5b8848db844a112a398c74ff9bf\jetified-firebase-auth-17.0.0\AndroidManifest.xml:37:17-109
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\cdcbe5b8848db844a112a398c74ff9bf\jetified-firebase-auth-17.0.0\AndroidManifest.xml:38:17-82
+102            <meta-data
+102-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
+103                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+103-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
+105        </service>
+106
+107        <provider
+107-->[:image_picker] D:\Internships\Crop Disease Detection\App\crop_doc\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-19:20
+108            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+108-->[:image_picker] D:\Internships\Crop Disease Detection\App\crop_doc\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-82
+109            android:authorities="com.alphadevs.crowd.flutter.image_provider"
+109-->[:image_picker] D:\Internships\Crop Disease Detection\App\crop_doc\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-74
+110            android:exported="false"
+110-->[:image_picker] D:\Internships\Crop Disease Detection\App\crop_doc\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+111            android:grantUriPermissions="true" >
+111-->[:image_picker] D:\Internships\Crop Disease Detection\App\crop_doc\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-47
+112            <meta-data
+112-->[:image_picker] D:\Internships\Crop Disease Detection\App\crop_doc\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
+113                android:name="android.support.FILE_PROVIDER_PATHS"
+113-->[:image_picker] D:\Internships\Crop Disease Detection\App\crop_doc\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
+114                android:resource="@xml/flutter_image_picker_file_paths" />
+114-->[:image_picker] D:\Internships\Crop Disease Detection\App\crop_doc\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
+115        </provider>
+116
+117        <activity
+117-->[:url_launcher] D:\Internships\Crop Disease Detection\App\crop_doc\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+118            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+118-->[:url_launcher] D:\Internships\Crop Disease Detection\App\crop_doc\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+119            android:exported="false"
+119-->[:url_launcher] D:\Internships\Crop Disease Detection\App\crop_doc\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+120            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+120-->[:url_launcher] D:\Internships\Crop Disease Detection\App\crop_doc\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+121
+122        <receiver
+122-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:29:9-33:20
+123            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+123-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:30:13-85
+124            android:enabled="true"
+124-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:31:13-35
+125            android:exported="false" >
+125-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:32:13-37
+126        </receiver>
+127        <receiver
+127-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:34:9-42:20
+128            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+128-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:35:13-100
+129            android:enabled="true"
+129-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:36:13-35
+130            android:exported="true"
+130-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:37:13-36
+131            android:permission="android.permission.INSTALL_PACKAGES" >
+131-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:38:13-69
+132            <intent-filter>
+132-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:39:13-41:29
+133                <action android:name="com.android.vending.INSTALL_REFERRER" />
+133-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:40:17-79
+133-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:40:25-76
+134            </intent-filter>
+135        </receiver>
+136
+137        <service
+137-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:44:9-47:40
+138            android:name="com.google.android.gms.measurement.AppMeasurementService"
+138-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:45:13-84
+139            android:enabled="true"
+139-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:46:13-35
+140            android:exported="false" />
+140-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:47:13-37
+141        <service
+141-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:48:9-52:72
+142            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+142-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:49:13-87
+143            android:enabled="true"
+143-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:50:13-35
+144            android:exported="false"
+144-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:51:13-37
+145            android:permission="android.permission.BIND_JOB_SERVICE" />
+145-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:52:13-69
+146
+147        <activity
+147-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\cdcbe5b8848db844a112a398c74ff9bf\jetified-firebase-auth-17.0.0\AndroidManifest.xml:24:9-31:50
+148            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+148-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\cdcbe5b8848db844a112a398c74ff9bf\jetified-firebase-auth-17.0.0\AndroidManifest.xml:25:13-85
+149            android:excludeFromRecents="true"
+149-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\cdcbe5b8848db844a112a398c74ff9bf\jetified-firebase-auth-17.0.0\AndroidManifest.xml:26:13-46
+150            android:exported="true"
+150-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\cdcbe5b8848db844a112a398c74ff9bf\jetified-firebase-auth-17.0.0\AndroidManifest.xml:27:13-36
+151            android:launchMode="singleTask"
+151-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\cdcbe5b8848db844a112a398c74ff9bf\jetified-firebase-auth-17.0.0\AndroidManifest.xml:28:13-44
+152            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+152-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\cdcbe5b8848db844a112a398c74ff9bf\jetified-firebase-auth-17.0.0\AndroidManifest.xml:29:13-102
+153            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+153-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\cdcbe5b8848db844a112a398c74ff9bf\jetified-firebase-auth-17.0.0\AndroidManifest.xml:30:13-72
+154
+155        <receiver
+155-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
+156            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+156-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
+157            android:exported="true"
+157-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
+158            android:permission="com.google.android.c2dm.permission.SEND" >
+158-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
+159            <intent-filter>
+159-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:41:13-43:29
+160                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+160-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:42:17-81
+160-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:42:25-78
+161            </intent-filter>
+162        </receiver>
+163
+164        <provider
+164-->[com.google.firebase:firebase-common:19.3.0] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\6366790a8f74f379a2dc41ebbff7d5e3\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+165            android:name="com.google.firebase.provider.FirebaseInitProvider"
+165-->[com.google.firebase:firebase-common:19.3.0] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\6366790a8f74f379a2dc41ebbff7d5e3\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+166            android:authorities="com.alphadevs.crowd.firebaseinitprovider"
+166-->[com.google.firebase:firebase-common:19.3.0] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\6366790a8f74f379a2dc41ebbff7d5e3\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+167            android:exported="false"
+167-->[com.google.firebase:firebase-common:19.3.0] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\6366790a8f74f379a2dc41ebbff7d5e3\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+168            android:initOrder="100" />
+168-->[com.google.firebase:firebase-common:19.3.0] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\6366790a8f74f379a2dc41ebbff7d5e3\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+169
+170        <activity
+170-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\4c0b774c09d5393feb013f0dbe753af3\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+171            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+171-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\4c0b774c09d5393feb013f0dbe753af3\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+172            android:exported="false"
+172-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\4c0b774c09d5393feb013f0dbe753af3\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+173            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+173-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\4c0b774c09d5393feb013f0dbe753af3\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+174
+175        <meta-data
+175-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\fef5c45aa62419b4b76d2db04e153bbf\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+176            android:name="com.google.android.gms.version"
+176-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\fef5c45aa62419b4b76d2db04e153bbf\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+177            android:value="@integer/google_play_services_version" />
+177-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\rajan\.gradle\caches\transforms-2\files-2.1\fef5c45aa62419b4b76d2db04e153bbf\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+178    </application>
+179
+180</manifest>
