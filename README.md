@@ -13,6 +13,7 @@ To store images in a central database, we have used [Zapier] to integrate Fireba
 ## How it Works ?
 
 ![gif](https://github.com/aksharbarchha/CrowdSource/blob/master/gif2.gif)
+
 ![gif](https://github.com/aksharbarchha/CrowdSource/blob/master/gif1.gif)
 
 ## Developed with :heart: by [Akshar](https://github.com/aksharbarchha), [Manas](https://github.com/gandhiboys), [Rajan](https://github.com/mahanvyakti) and [Shantanu](https://github.com/shantanugodbole)
