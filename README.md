@@ -1,16 +1,16 @@
-# crop_doc
+# CrowdSource
 
-A new Flutter project.
+![](https://img.shields.io/badge/-Flutter-blue?style=for-the-badge&logo=flutter) ![](https://img.shields.io/badge/-Firebase-orange?style=for-the-badge&logo=firebase)  ![](https://img.shields.io/badge/-Zapier-black?style=for-the-badge&logo=zapier) ![](https://img.shields.io/badge/IDE-Visual_Studio_Code-blue?style=for-the-badge&logo=visual-studio-code)
 
-## Getting Started
+## What is CrowdSource ?
 
-This project is a starting point for a Flutter application.
+CrowdSource is an app developed to collect and store images of leaves of both diseased and healthy crops to create a dataset for future use.
 
-A few resources to get you started if this is your first Flutter project:
+Currently, CrowdSource is available only in Hindi.  We are currently working on providing multilingual support.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+To store images in a central database, we have used [Zapier] to integrate Firebase Storage and Google Drive. 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Developed with :heart: by [Akshar](https://github.com/aksharbarchha), [Manas](https://github.com/gandhiboys), [Rajan](https://github.com/mahanvyakti) and [Shantanu](https://github.com/shantanugodbole)
+
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+[Zapier]: <https://zapier.com/app/dashboard>
